@@ -1,0 +1,105 @@
+.layout {
+  max-width: 1200px;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+.container {
+  border: 3px solid #000000;
+  border-radius: 8px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-add {
+  background-color: rgb(221, 221, 221);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.form-label {
+  font-size: 18px;
+  font-weight: 600;
+  padding-right: 5px;
+  padding-left: 10px;
+}
+
+.add-input {
+  height: 50px;
+  width: 250px;
+  border: none;
+  border-radius: 8px;
+  padding: 0 12px;
+}
+
+.add-button {
+  font-size: 18px;
+  border: none;
+  height: 50px;
+  border-radius: 8px;
+  background-color: rgb(255, 82, 82);
+  width: 140px;
+  color: white;
+  font-weight: 700;
+}
+
+.list-box {
+  border: 2px solid #000;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px 0;
+  border-bottom: 1px solid #000;
+}
+
+.todo-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.todo-body {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.button-set {
+  display: flex;
+  gap: 10px;
+}
+
+.todo-delete-button {
+  background-color: rgb(255, 82, 82);
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  height: 50px;
+  width: 80px;
+  border-radius: 8px;
+}
+.todo-complete-button {
+  background-color: rgb(61, 174, 51);
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  height: 50px;
+  width: 80px;
+  border-radius: 8px;
+}
